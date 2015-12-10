@@ -51,7 +51,7 @@ SOFTWARE.
    </license>
 
    <url>
-      <update label="Member Mover" url="http://greenlightning.eu/eclipse/membermover"/>
+      <update label="Member Mover" url="http://greenlightning.eu/eclipse/member-mover"/>
    </url>
 
    <plugin
