@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="eu.greenlightning.membermover.movememberup"
+            contextId="org.eclipse.jdt.ui.javaEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+M3+ARROW_UP">
+      </key>
+      <key
+            commandId="eu.greenlightning.membermover.movememberdown"
+            contextId="org.eclipse.jdt.ui.javaEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+M3+ARROW_DOWN">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="eu.greenlightning.membermover.MoveMemberUpHandler"
+            id="eu.greenlightning.membermover.movememberup"
+            name="Move Member Up">
+      </command>
+      <command
+            defaultHandler="eu.greenlightning.membermover.MoveMemberDownHandler"
+            id="eu.greenlightning.membermover.movememberdown"
+            name="Move Member Down">
+      </command>
+   </extension>
+
+</plugin>
