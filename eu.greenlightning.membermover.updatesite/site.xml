@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/eu.greenlightning.membermover.feature_1.0.0.jar" id="eu.greenlightning.membermover.feature" version="1.0.0"/>
+   <description name="Member Mover" url="https://greenlightning.eu/eclipse/member-mover">
+      Update site for the Member Mover plugin.
+   </description>
+   <feature url="features/eu.greenlightning.membermover.feature_1.0.0.jar" id="eu.greenlightning.membermover.feature" version="1.0.0">
+      <category name="eu.greenlightning.membermover.category"/>
+   </feature>
+   <category-def name="eu.greenlightning.membermover.category" label="Member Mover">
+      <description>
+         Provides shortcuts to reorder Java class members inside a file, similar to Move Line Up (ALT+UP) and Move Line Down (ALT+DOWN)
+but on a higher level.
+
+For example, you can swap the method the cursor is currently
+in with the method above it. This is a lot faster than first
+selecting the whole method and than moving it up line by line
+until it is above the other one.
+
+Works inside all Java types and with all members (fields, methods,
+nested classes/interfaces, etc.).
+
+Shortcuts on Windows &amp; Linux:
+CTRL+SHIFT+ALT+UP
+CTRL+SHIFT+ALT+DOWN
+
+Shortcuts on OS X:
+CMD+SHIFT+OPTION+UP
+CMD+SHIFT+OPTION+DOWN
+      </description>
+   </category-def>
 </site>

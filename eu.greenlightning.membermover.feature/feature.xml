@@ -5,7 +5,7 @@
       version="1.0.0"
       provider-name="Green Lightning">
 
-   <description url="http://greenlightning.eu/member-mover/">
+   <description url="https://greenlightning.eu/member-mover/">
       Provides shortcuts to reorder Java class members inside a file, similar to Move Line Up (ALT+UP) and Move Line Down (ALT+DOWN)
 but on a higher level.
 
@@ -51,7 +51,7 @@ SOFTWARE.
    </license>
 
    <url>
-      <update label="Member Mover" url="http://greenlightning.eu/eclipse/member-mover"/>
+      <update label="Member Mover" url="https://greenlightning.eu/eclipse/member-mover"/>
    </url>
 
    <plugin
